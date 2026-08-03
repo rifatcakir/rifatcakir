@@ -1,8 +1,10 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:0d1117&height=170&section=header&text=R%C4%B1fat%20%C3%87ak%C4%B1r&fontColor=ffffff&fontSize=42&fontAlignY=34" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:0d1117&height=150&section=header" width="100%" />
+
+<h1 align="center">Rıfat Çakır</h1>
 
 <p align="center">
   <a href="https://github.com/rifatcakir">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=1F6FEB&center=true&vCenter=true&width=640&lines=Senior+Software+Engineer;Java+%E2%80%A2+Kotlin+%E2%80%A2+Spring+Boot;Distributed+backend+systems%2C+built+to+last;AI+in+the+enterprise+JVM+--+tested+and+shipped" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=21&duration=2800&pause=900&color=1F6FEB&center=true&vCenter=true&width=640&height=45&lines=Senior+Software+Engineer;Java+%7C+Kotlin+%7C+Spring+Boot;Distributed+backend+systems%2C+built+to+last;AI+in+the+enterprise+JVM+-+tested+and+shipped" alt="Senior Software Engineer" />
   </a>
 </p>
 
@@ -95,9 +97,9 @@ most recently *"The Human Side of Technical Debt."*
 ## 🤝 Elsewhere
 
 <p>
-  <a href="https://medium.com/@rifatcakira"><img src="https://img.shields.io/badge/Medium-0d1117?style=for-the-badge&logo=medium&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/rifatcakir/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/rifatcakir"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://medium.com/@rifatcakira"><img src="https://img.shields.io/badge/Medium-4d4d4d?style=for-the-badge&logo=medium&logoColor=white" /></a>
+  <a href="https://rifatcakir.github.io/spring-ai-test-tools/"><img src="https://img.shields.io/badge/Project_docs-1f6feb?style=for-the-badge&logo=readthedocs&logoColor=white" /></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=110&section=footer" width="100%" />
