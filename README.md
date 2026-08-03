@@ -25,7 +25,7 @@ services. The hard problems there aren't prompts — they're determinism,
 testability, and what a test suite costs when every run hits a model. That
 problem is what `spring-ai-test-tools` exists to solve.
 
-<sub>Backend engineering since 2017 · currently in banking, previously e-commerce and telecom</sub>
+<sub>Backend engineering since 2017 · currently in banking, previously e-commerce and telecom · MSc in Data Science & Machine Learning</sub>
 
 <br>
 
@@ -63,29 +63,6 @@ instead of becoming a rewrite.
 
 <br>
 
-## Stack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,gcp,azure&theme=dark" />
-</p>
-
-**Java · Kotlin · Spring Boot · Spring Modulith · Spring AI** — on Google Cloud and Azure.
-
-<sub>Earlier in my career, and still useful for reading other people's systems: C · C++ · C# · Python</sub>
-
-<br>
-
-## Education
-
-**MSc — Data Science & Machine Learning**<br>
-Yeditepe University, Istanbul (2020–2022)
-
-**BSc — Computer Engineering**<br>
-Yeditepe University, Istanbul (2013–2017)<br>
-<sub>Erasmus exchange in Computer Science — Universitat Politècnica de València (2014–2015)</sub>
-
-<br>
-
 ## Open source
 
 > [!IMPORTANT]
@@ -114,6 +91,18 @@ protecting you, and what architectural decisions actually cost over time.
 I also present regularly to engineering teams on GenAI, the Model Context
 Protocol, and software design — most recently *"The Human Side of Technical
 Debt."*
+
+<br>
+
+## Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,gcp,azure&theme=dark" />
+</p>
+
+**Java · Kotlin · Spring Boot · Spring Modulith · Spring AI** — on Google Cloud and Azure.
+
+<sub>Earlier in my career, and still useful for reading other people's systems: C · C++ · C# · Python</sub>
 
 <br>
 
