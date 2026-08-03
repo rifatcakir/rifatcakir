@@ -3,103 +3,121 @@
 <h1 align="center">Rıfat Çakır</h1>
 
 <p align="center">
-  <b>Senior Software Engineer</b> &nbsp;·&nbsp; Java &nbsp;·&nbsp; Kotlin &nbsp;·&nbsp; Spring Boot
+  <b>Senior Software Engineer</b> &nbsp;·&nbsp; Java &nbsp;·&nbsp; Kotlin &nbsp;·&nbsp; Spring
   <br>
-  <sub>Distributed backend systems, built to last — and AI in the enterprise JVM, tested and shipped</sub>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Utrecht-Netherlands-1f6feb?style=flat-square&logo=googlemaps&logoColor=white" />
-  <img src="https://img.shields.io/badge/Backend%20since-2017-6DB33F?style=flat-square" />
-  <img src="https://komarev.com/ghpvc/?username=rifatcakir&style=flat-square&color=1f6feb&label=Profile+views" />
+  <sub>Utrecht, Netherlands</sub>
 </p>
 
 <br>
 
 ## About
 
-I design and scale distributed backend systems. Most of my work involves
-decomposing monoliths, establishing architectural standards (DDD, Hexagonal,
-API-first), and raising the testing bar on the teams I work with.
+I work on backend systems that already carry weight — monoliths that need
+splitting, service boundaries drawn too early, test suites slow enough that
+people quietly stopped running them. Making systems like that changeable again
+is most of the job.
 
-For the past few years I've focused on where AI actually fits inside enterprise
-JVM services — not as a demo, but as something you can test, deploy, and maintain.
+Mostly banking and e-commerce: domains where being correct matters more than
+being novel.
 
-<sub>Currently in banking · previously e-commerce and telecom · MSc in Data Science & Machine Learning</sub>
+For the past few years I've focused on where AI fits inside enterprise JVM
+services. The hard problems there aren't prompts — they're determinism,
+testability, and what a test suite costs when every run hits a model. That
+problem is what `spring-ai-test-tools` exists to solve.
 
-<br>
-
-## 🛠 Build with
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,docker,gcp,azure&theme=dark" />
-</p>
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,rabbitmq,jenkins,git&theme=dark" />
-</p>
-
-**Architecture & practice** — Microservices · Domain-Driven Design · Hexagonal Architecture · API-first · integration, mutation & BDD testing
+<sub>Backend engineering since 2017 · currently in banking, previously e-commerce and telecom</sub>
 
 <br>
 
-## 🔬 Currently exploring
+## How I work
 
-<p>
-  <img src="https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-  <img src="https://img.shields.io/badge/Model_Context_Protocol-0d1117?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ollama-0d1117?style=for-the-badge&logo=ollama&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-1f6feb?style=for-the-badge" />
-</p>
+**Name the real constraint before choosing anything.** Most architecture
+questions arrive dressed as technical ones and turn out not to be. Team size,
+release cadence, regulatory review, how much operational maturity actually
+exists — these decide more designs than any framework comparison. An elegant
+answer to the wrong constraint is just an expensive one, so I'd rather spend the
+first week understanding the problem than the next year defending a solution.
+
+**Every decision is a trade. Put the price on the table.** There is rarely a
+correct architecture, only one whose costs you've knowingly agreed to pay.
+Microservices buy independent deployment and charge you distributed
+transactions, new failure modes, and a platform team nobody budgeted for. A
+modular monolith buys speed and charges you discipline at the module boundary.
+I've led a decomposition into microservices and I build moduliths with Spring
+Modulith; neither is a default, and the work is making the invoice visible
+before the decision rather than after.
+
+**Design for being wrong.** I assume part of any design is mistaken — I just
+don't know which part yet. So the question I care about is which decisions are
+reversible. Data models and public contracts are expensive to undo, and they get
+the analysis. Frameworks, topology, and internal structure are cheap to change,
+and they get a decision and a move on. Tests are the cheapest way to find out
+you were wrong; the measure isn't coverage percentage, it's whether people ship
+on a Thursday without waiting for someone brave.
+
+**The domain outlives the stack.** Frameworks are rented; the business model is
+owned. Domain-Driven Design, Clean Architecture, and ports & adapters are how I
+keep that ownership intact — not out of purity, but so that a database
+migration, a framework upgrade, or a new channel stays a contained change
+instead of becoming a rewrite.
 
 <br>
 
-## 📦 Open source
+## Stack
+
+| | |
+|---|---|
+| **Primary** | Java · Kotlin · Spring Boot · Spring Modulith · Spring AI |
+| **Also worked in** | C · C++ · C# · Python |
+| **Cloud** | Google Cloud · Azure |
+
+<br>
+
+## Education
+
+**MSc — Data Science & Machine Learning**
+Yeditepe University, Istanbul (2020–2022)
+
+**BSc — Computer Engineering**
+Yeditepe University, Istanbul (2013–2017)
+Erasmus exchange in Computer Science, Universitat Politècnica de València (2014–2015)
+
+<br>
+
+## Open source
 
 > [!IMPORTANT]
-> ### [spring-ai-test-tools](https://github.com/rifatcakir/spring-ai-test-tools) — creator & maintainer
+> ### Deterministic testing for Spring AI
 >
-> Deterministic, file-based record-and-replay (VCR) caching for Spring AI
-> integration tests. LLM calls are slow, non-deterministic, and expensive to run
-> in CI — this makes them repeatable.
+> Creator and maintainer of
+> [**spring-ai-test-tools**](https://github.com/rifatcakir/spring-ai-test-tools)
+> — file-based record-and-replay (VCR) caching for Spring AI integration tests.
+> LLM calls are slow, non-repeatable, and expensive to run in CI; this makes
+> them behave like any other test.
 >
-> [![Docs](https://img.shields.io/badge/Documentation-1f6feb?style=flat-square&logo=readthedocs&logoColor=white)](https://rifatcakir.github.io/spring-ai-test-tools/)
+> Documentation: **https://rifatcakir.github.io/spring-ai-test-tools/**
+>
 > [![License](https://img.shields.io/badge/License-Apache_2.0-6DB33F?style=flat-square)](https://github.com/rifatcakir/spring-ai-test-tools)
+> [![Repo](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rifatcakir/spring-ai-test-tools)
 
 <br>
 
-## 🚀 Selected work
+## Writing & speaking
 
-<table>
-  <tr>
-    <td width="32%"><a href="https://github.com/rifatcakir/spring-ai-mcp"><b>spring-ai-mcp</b></a></td>
-    <td>Natural-language access to banking microservices via Spring AI and the Model Context Protocol</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/rifatcakir/spring-ai-bank-chat-bot"><b>spring-ai-bank-chat-bot</b></a></td>
-    <td>RAG-backed chat application on Spring AI 1.0 and Ollama</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/rifatcakir/battleship-game"><b>battleship-game</b></a></td>
-    <td>Microservice project — Docker, Redis, RabbitMQ, MongoDB, mutation testing</td>
-  </tr>
-</table>
+Writing is how I work out the arguments I end up making in design reviews. I
+publish on [**Medium**](https://medium.com/@rifatcakira) on software
+architecture and system design — how to draw boundaries, where transactions stop
+protecting you, and what architectural decisions actually cost over time.
+
+I also present regularly to engineering teams on GenAI, the Model Context
+Protocol, and software design — most recently *"The Human Side of Technical
+Debt."*
 
 <br>
 
-## ✍️ Writing & speaking
-
-I publish deep-dives on Spring, software design, and AI on Medium. I also speak
-regularly at internal engineering events on GenAI, MCP, and software design —
-most recently *"The Human Side of Technical Debt."*
-
-<br>
-
-## 🤝 Elsewhere
+## Elsewhere
 
 <p>
   <a href="https://www.linkedin.com/in/rifatcakir/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://medium.com/@rifatcakira"><img src="https://img.shields.io/badge/Medium-4d4d4d?style=for-the-badge&logo=medium&logoColor=white" /></a>
-  <a href="https://rifatcakir.github.io/spring-ai-test-tools/"><img src="https://img.shields.io/badge/Project_docs-1f6feb?style=for-the-badge&logo=readthedocs&logoColor=white" /></a>
 </p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=110&section=footer" width="100%" />
