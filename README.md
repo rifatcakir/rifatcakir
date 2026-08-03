@@ -65,11 +65,13 @@ instead of becoming a rewrite.
 
 ## Stack
 
-| | |
-|---|---|
-| **Primary** | Java · Kotlin · Spring Boot · Spring Modulith · Spring AI |
-| **Also worked in** | C · C++ · C# · Python |
-| **Cloud** | Google Cloud · Azure |
+<p>
+  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,gcp,azure&theme=dark" />
+</p>
+
+**Java · Kotlin · Spring Boot · Spring Modulith · Spring AI** — on Google Cloud and Azure.
+
+<sub>Earlier in my career, and still useful for reading other people's systems: C · C++ · C# · Python</sub>
 
 <br>
 
