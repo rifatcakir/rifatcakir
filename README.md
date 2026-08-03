@@ -75,12 +75,12 @@ instead of becoming a rewrite.
 
 ## Education
 
-**MSc — Data Science & Machine Learning**
+**MSc — Data Science & Machine Learning**<br>
 Yeditepe University, Istanbul (2020–2022)
 
-**BSc — Computer Engineering**
-Yeditepe University, Istanbul (2013–2017)
-Erasmus exchange in Computer Science, Universitat Politècnica de València (2014–2015)
+**BSc — Computer Engineering**<br>
+Yeditepe University, Istanbul (2013–2017)<br>
+<sub>Erasmus exchange in Computer Science — Universitat Politècnica de València (2014–2015)</sub>
 
 <br>
 
