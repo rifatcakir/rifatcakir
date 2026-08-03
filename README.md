@@ -3,9 +3,9 @@
 <h1 align="center">Rıfat Çakır</h1>
 
 <p align="center">
-  <a href="https://github.com/rifatcakir">
-    <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=21&duration=2800&pause=900&color=1F6FEB&center=true&vCenter=true&width=640&height=45&lines=Senior+Software+Engineer;Java+%7C+Kotlin+%7C+Spring+Boot;Distributed+backend+systems%2C+built+to+last;AI+in+the+enterprise+JVM+-+tested+and+shipped" alt="Senior Software Engineer" />
-  </a>
+  <b>Senior Software Engineer</b> &nbsp;·&nbsp; Java &nbsp;·&nbsp; Kotlin &nbsp;·&nbsp; Spring Boot
+  <br>
+  <sub>Distributed backend systems, built to last — and AI in the enterprise JVM, tested and shipped</sub>
 </p>
 
 <p align="center">
